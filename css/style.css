@@ -1,0 +1,78 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: aquamarine;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+table, th, td {
+    border: 1px solid;
+}
+
+#les-content {
+    flex: 1;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#les-header {
+    width: 100%;
+    height: 120px;
+    padding: 5px;
+    background-color: #a2a3b7;
+}
+
+#les-footer {
+    width: 100%;
+    height: 100px;
+    padding: 5px;
+    background-color: #a2a3b7;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.les-content-img {
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.les-button {
+    border: 1px;
+    border-color: black;
+    background-color: blue;
+    border-radius: 12px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.les-button:hover {
+    background-color: cadetblue;
+    border-color: blue;
+}
+
+.les-button:active {
+    background-color: cadetblue;
+    border-color: blue;
+}
+
+.les-table {
+    margin-left: 10px;
+}
+
+.les-form-row {
+    margin-bottom: 10px;
+}
+
+.les-form-row label {
+    width: 100px;
+    display: inline-block;
+}

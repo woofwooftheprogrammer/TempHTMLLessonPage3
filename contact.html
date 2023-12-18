@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Les</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header id="les-header">
+            <h1>Les Contactpagina</h1>
+            <nav>
+                <button type="button" onclick="location.href = './index.html';" class="les-button" >Startpagina</button>
+                <button type="button" onclick="location.href = './mijncv.html';" class="les-button" >CV</button>
+                <button type="button" onclick="location.href = './contact.html';" class="les-button" >Contact</button>
+            </nav>
+        </header>
+        <div id="les-content">
+            <form>
+                <div class="les-form-row">
+                    <label for="voornaam">Voornaam: </label>
+                    <input type="text" id="voornaam" placeholder="Voornaam" />
+                </div>
+
+                <div class="les-form-row">
+                    <label for="achternaam" class="les-form-label">Achternaam: </label>
+                    <input type="text" id="achternaam" placeholder="Achternaam" />
+                </div>
+                
+                <div class="les-form-row">
+                    <label for="email" class="les-form-label">E-mailadres: </label>
+                    <input type="email" id="email" placeholder="E-mailadres" />
+                </div>
+                
+                <div class="les-form-row">
+                    <label for="bericht" class="les-form-label">Bericht: </label>
+                    <textarea id="bericht" rows=5 placeholder="Bericht"> </textarea>
+                </div>
+                
+                <button class="les-button">Verzend</button>
+            </form>
+        </div>
+        <footer id="les-footer">nepbedrijf ©2023</footer>
+    </body>
+</html>
